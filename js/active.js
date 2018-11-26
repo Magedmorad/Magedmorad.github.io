@@ -73,7 +73,7 @@
                 $(this).html(index);
             }
         });
-
+// ........
         testimonial.owlCarousel({
             items: 1,
             margin: 0,
@@ -81,7 +81,7 @@
             nav: false,
             dots: false,
             autoplay: true,
-            autoplayTimeout: 5000,
+            autoplayTimeout: 20000,
             smartSpeed: 600
         });
     }
